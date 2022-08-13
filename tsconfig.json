@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "target": "es2022",
+    "lib": ["es2022", "webworker"],
+    "types": ["@cloudflare/workers-types"],
+    "module": "es2022",
+    "incremental": true,
+    "strict": true,
+    "declaration": true,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "exactOptionalPropertyTypes": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importsNotUsedAsValues": "error",
+    "removeComments": true
+  },
+  "include": ["./src", "./__tests__", "./lib"],
+  "exclude": ["./dist", "node_modules"]
+}
